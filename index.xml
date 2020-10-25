@@ -6,35 +6,16 @@
     <description>Recent content on Kaustyk Polski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sun, 25 Oct 2020 20:24:06 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jan 2021 19:29:34 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Trzeci testowy</title>
-      <link>/blog/trzeci/</link>
-      <pubDate>Sun, 25 Oct 2020 20:24:06 +0100</pubDate>
-      
-      <guid>/blog/trzeci/</guid>
-      <description>Test</description>
-    </item>
-    
-    <item>
-      <title>Test systemu vol 2</title>
-      <link>/blog/drugi/</link>
-      <pubDate>Sun, 25 Oct 2020 20:04:53 +0100</pubDate>
-      
-      <guid>/blog/drugi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test systemu</title>
+      <title>Pierwszy</title>
       <link>/blog/pierwszy/</link>
-      <pubDate>Sun, 25 Oct 2020 19:42:01 +0100</pubDate>
+      <pubDate>Tue, 12 Jan 2021 19:29:34 +0100</pubDate>
       
       <guid>/blog/pierwszy/</guid>
-      <description>To jest pierwszy post na blogu.
-Tak robi się akapity. (Wystarczy jedna pusta linia.)
- Tak robimy listy wypunktowane   a tak numerowane  tak() { robimy &amp;amp;&amp;amp; fragmenty || kodu } Uwaga a tak robimy boxy z uwagą…  Technikalia …i ze szczegółami technicznymi.  Możliwe jest dodanie innych rodzajów boxów. Najprościej poprosić o to nikitę :P
-Zielono mi! Ale o tym innym razem.  </description>
+      <description>Standardowy markdown
+ cytaty itd
+ </description>
     </item>
     
   </channel>
