@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c670ea4-0224-4d41-9e33-4be59df82d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/audacity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/bluetooth-audio.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/chntpw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/giomount.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/gnome-search-providers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/gnome-search-providers/problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/image-mse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/jack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/jack/qjackctl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/kglobalaccel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/kodeki.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/minimalizm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/mysqlunicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/n551mic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/pdf-cli.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/phpstorm-comments/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/symfony5-webserver.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/tmuxinator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/tsconfig.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/tsconfig/webstorm-tsconfig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/veracrypt-mount.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/xdebug.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/xmodifiers.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VZmhXpcD14onMR4yuKWEpFicWu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layouts/shortcodes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c670ea4-0224-4d41-9e33-4be59df82d4f" name="Default Changelist" comment="" />
+      <created>1603272111592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603272111592</updated>
+      <workItem from="1603272112684" duration="10897000" />
+      <workItem from="1603616174847" duration="11797000" />
+      <workItem from="1603650256893" duration="1689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

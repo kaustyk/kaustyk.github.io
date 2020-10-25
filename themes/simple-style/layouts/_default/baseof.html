@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partial "html-meta.html" . -}}
+    <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
+    {{ $style := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <style>
+        body {
+            font-family: '{{ .Site.Params.textFont }}', Helvetica Neue, Arial, sans-serif;
+        }
+
+        {{ if not .IsHome }}
+        pre, code, kbd {
+            font-family: '{{ .Site.Params.codeFont }}', Menlo, Consolas, monospace;
+        }
+        {{ end }}
+    </style>
+    <link
+            href="https://fonts.googleapis.com/css2?family={{ .Site.Params.codeFont }}&family={{ .Site.Params.textFont }}:wght@400;700&amp;display=swap"
+            rel="stylesheet">
+    {{ with .Site.Params.favicon -}}
+    <link rel="icon" href="{{ . }}" type="image/x-icon">
+    {{ end -}}
+    {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s"/>
+    ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+</head>
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a href="/">
+                        <abbr title="there are no solutions, only trade-offs">
+                            {{ .Site.Title }}
+                        </abbr>
+                    </a>
+                </h1>
+                {{- if .Site.Params.subtitle }}<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Params.subtitle }}</a></h2>
+                {{- end }}
+            </div>
+            <nav>
+                {{- range .Site.Menus.main -}}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{- end -}}
+            </nav>
+        </header>
+        <main>
+            <article class="content">
+                {{ block "main" . }}{{- end }}
+            </article>
+        </main>
+        <footer>
+            <div>
+                <div class="copyright">
+                    <p>
+                        Treść w domenie publicznej.<br>
+                        Motyw oparty na <a href="https://github.com/yanlinlin82/simple-style">simple-style</a>.<br>
+                        Tu <a href="/index.xml">RSS</a>, a tu <a
+                            href="https://github.com/logarytm/logarytm.github.io">GitHub</a>.<br>
+                        Ku pamięci Milo Mazurkiewicz.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

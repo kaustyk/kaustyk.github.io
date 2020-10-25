@@ -1,0 +1,28 @@
+{{ define "main" -}}
+<div class="single">
+    <h2>{{ .Title }}</h2>
+    <div>
+        {{ if .Date -}}
+        <div class="date">
+            {{ .Date.Day }} {{ index $.Site.Data.months (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            <span class="bullsep">&bull;</span>
+            {{ .WordCount }} słów
+        </div>
+        {{ end -}}
+        {{ $taxo := "tags" -}}
+        {{ if .Param $taxo -}}
+        <div>
+            {{ range .Param $taxo -}}
+            {{ $name := . -}}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) -}}
+            <span><a href="{{ .Permalink }}">#{{ $name }}</a></span>
+            {{ end -}}
+            {{ end -}}
+        </div>
+        {{ end -}}
+    </div>
+    <div>
+        {{ .Content -}}
+    </div>
+</div>
+{{ end -}}

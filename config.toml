@@ -1,0 +1,21 @@
+# baseURL = ""
+# uglyURLs = true
+relativeURLs = true
+languageCode = "pl-pl"
+title = "Kaustyk Polski"
+theme = "simple-style"
+copyright = ""
+mainSections = ["blog"]
+paginate = 10
+defaultContentLanguage = "pl"
+
+[markup.highlight]
+style = "monokai"
+
+[[resources]]
+name = "style.css"
+src = "style.css"
+
+[params]
+textFont = "Source Sans Pro"
+codeFont = "Source Code Pro"

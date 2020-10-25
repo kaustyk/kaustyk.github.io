@@ -1,0 +1,20 @@
+{{- define "main" -}}
+<div class="index">
+    {{ range (.Paginate ( where .Site.RegularPages "Type" "in" site.Params.mainSections )).Pages -}}
+    <div class="list-entry">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+        {{- if .Description }}
+        <p class="description">
+            {{ .Description }}
+            <span class="date">{{ .Date.Day }} {{ index $.Site.Data.months (printf "%d" .Date.Month) }} {{ .Date.Year }}</span>
+        </p>
+        {{ else }}
+        <div class="date">{{ .Date.Day }} {{ index $.Site.Data.months (printf "%d" .Date.Month) }} {{ .Date.Year }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end -}}
+    {{ partial "pagination.html" . -}}
+</div>
+{{ end -}}

@@ -1,0 +1,411 @@
+html {
+    background-color: #111;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+body {
+    font-size: 1rem;
+    color: #d3d3d3;
+    margin: 16px auto;
+    max-width: 960px;
+    overflow-y: scroll;
+    padding: 0 16px;
+}
+
+h1,
+h2,
+h3 {
+    color: #ddd;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 176%;
+    font-weight: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 133%;
+}
+
+h3 {
+    /*color: #777;*/
+    margin-top: 1.5rem;
+    font-size: 125%;
+    /*font-weight: normal;*/
+    margin-bottom: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+footer {
+    margin: 2rem 0 1rem 0;
+    line-height: 1.6;
+}
+
+p,
+pre,
+table,
+ul,
+ol,
+.box {
+    margin: 1rem 0;
+}
+
+img {
+    margin: .5rem auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 0 10px;
+    height: auto;
+    display: block;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #999;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+a {
+    color: #7799ff;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #aa88ff;
+}
+
+a:hover {
+    color: #e88;
+}
+
+header a,
+header a:visited,
+h1 a,
+h1 a:visited,
+h2 a,
+h2 a:visited {
+    text-decoration: none;
+    color: #ddd;
+}
+
+footer a,
+footer a:visited {
+    text-decoration: none;
+    color: #ddd;
+}
+
+header a:hover,
+footer a:hover,
+h1 a:hover,
+h2 a:hover {
+    text-decoration: none;
+    color: #f99;
+}
+
+nav {
+    padding: 10px 0;
+    text-align: right;
+}
+
+nav a {
+    padding-left: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+
+code {
+    color: #ac8;
+    font-size: .95rem;
+}
+
+.list-entry {
+    position: relative;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.list-entry a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+pre {
+    border-radius: 4px;
+    background-color: #2c2208 !important;
+    border: 1px #5b4837 solid;
+    padding: .5rem;
+    overflow: auto;
+    max-height: 500px;
+    /*border: 2px solid;*/
+    /*border-color: #e7e7e7 #ddd #ddd #e7e7e7;*/
+}
+
+pre code {
+    color: #ddd;
+}
+
+ul.pagination {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+li.page-item {
+    display: inline-block;
+    color: #aaa;
+}
+
+.page-link {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0 0;
+    line-height: 40px;
+    min-width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .page-link {
+        line-height: 36px;
+        min-width: 36px;
+    }
+}
+
+a.page-link {
+    color: #79f;
+}
+
+a.page-link:hover {
+    color: #e88;
+}
+
+.page-link.boundary {
+    margin-right: 5px;
+    padding: 0 10px;
+}
+
+.page-item.disabled a {
+    color: #aaa;
+    cursor: text;
+}
+
+.page-item.active span {
+    /*background-color: #f5f5f5;*/
+    color: #ddd;
+    cursor: text;
+    font-weight: bold;
+    border: 1px #777 solid;
+    /*background-color: #e7e7e7;*/
+    /*box-shadow: 0 0 0 1px #e2e2e2 inset;*/
+}
+
+/* .pagination a */
+.copyright {
+    color: #999;
+}
+
+h2 {
+    margin-bottom: .5rem;
+}
+
+.date {
+    color: #999;
+}
+
+.date-icon {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: .25rem;
+}
+
+.list-entry span.date::before {
+    content: '— ';
+}
+
+@media screen and (max-width: 640px) {
+    .list-entry .date {
+        display: block;
+        margin-top: .25rem;
+    }
+
+    .list-entry .date {
+        display: block;
+        margin-top: .25rem;
+    }
+
+    .list-entry span.date::before {
+        content: '';
+    }
+}
+
+.index {
+    padding-bottom: .5rem;
+}
+
+.list-entry {
+    margin-bottom: 1.5rem;
+}
+
+.box {
+    border-radius: 4px;
+    color: #ddd;
+    overflow: visible;
+    padding: .5rem;
+}
+
+.highlight + .box,
+.box + .box,
+.box + .highlight {
+    margin-top: -.25rem;
+    overflow: visible;
+    position: relative;
+}
+
+.highlight + .box::before,
+.highlight + .box::after,
+.box + .box::before,
+.box + .box::after,
+.box + .highlight::before,
+.box + .highlight::after {
+    content: '';
+    width: 3px;
+    display: block;
+    height: 3rem;
+    background-color: rgba(128, 128, 128, .25);
+    z-index: -1000;
+    top: -1rem;
+    position: absolute;
+    left: 1rem;
+}
+
+.highlight + .box::after,
+.box + .box::after,
+.box + .highlight::after {
+    left: unset;
+    right: 1rem;
+}
+
+.box :nth-child(2) {
+    margin-top: 0;
+}
+
+.box :last-child {
+    margin-bottom: 0;
+}
+
+.box-heading.box-heading {
+    margin-bottom: .5rem;
+}
+
+.alert {
+    background-color: #281111;
+    border: 1px solid #744;
+}
+
+.alert .box-heading {
+    border-bottom: 1px #633 solid;
+    color: #d65;
+}
+
+.advanced {
+    background-color: #202c4f;
+    border: 1px solid #435e87;
+}
+
+.advanced .box-heading {
+    border-bottom: 1px #6383b4 solid;
+    color: #abf;
+}
+
+.green {
+    background-color: #1f3818;
+    border: 1px solid #43875e;
+}
+
+.green .box-heading {
+    border-bottom: 1px #63b483 solid;
+    color: #ad8;
+}
+
+.description {
+    color: #bbb;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+blockquote {
+    color: #444;
+    /*border: #ccc solid;*/
+    /*border-width: 1px 1px 1px 1px;*/
+    border-left: .2em #ccc solid;
+    margin-left: 0;
+    padding: 0 1em;
+    /*margin: 0;*/
+    /*border-radius:4px;*/
+    /*background-color: #eee;*/
+}
+
+/* blockquote::before{content:"“";font-family:serif;position:absolute;font-size:5em;top:-.4em;left:-.5em} */
+abbr {
+    text-decoration-color: #999;
+    cursor: default;
+}
+
+h1 abbr {
+    text-decoration-color: #ccc;
+}
+
+a abbr,
+abbr a {
+    cursor: pointer;
+}
+
+.single ul {
+    list-style-type: circle;
+}
+
+.bullsep {
+    color: #aaa;
+    margin: 0 .2rem;
+}
