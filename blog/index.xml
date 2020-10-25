@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Kaustyk Polski</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Kaustyk Polski</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 25 Oct 2020 20:04:53 +0100</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test podsystemu</title>
+      <link>/blog/drugi/</link>
+      <pubDate>Sun, 25 Oct 2020 20:04:53 +0100</pubDate>
+      
+      <guid>/blog/drugi/</guid>
+      <description>Jaja ding dong</description>
+    </item>
+    
+    <item>
+      <title>Test systemu</title>
+      <link>/blog/pierwszy/</link>
+      <pubDate>Sun, 25 Oct 2020 19:42:01 +0100</pubDate>
+      
+      <guid>/blog/pierwszy/</guid>
+      <description>To jest pierwszy post na blogu.
+Tak robi się akapity. (Wystarczy jedna pusta linia.)
+ Tak robimy listy wypunktowane   a tak numerowane  tak() { robimy &amp;amp;&amp;amp; fragmenty || kodu } Uwaga a tak robimy boxy z uwagą…  Technikalia …i ze szczegółami technicznymi.  Możliwe jest dodanie innych rodzajów boxów. Najprościej poprosić o to nikitę :P
+Zielono mi! Ale o tym innym razem.  </description>
+    </item>
+    
+  </channel>
+</rss>
